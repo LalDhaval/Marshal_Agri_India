@@ -414,6 +414,7 @@ ul.btn li:last-child {
 }
 .img-product > h3{
      text-align: center;
+     margin-top: 10px;
 }
 
 .text-bg h1 {
@@ -460,7 +461,7 @@ ul.btn li:last-child {
 
 .titlepage {
      text-align: left;
-     padding-bottom: 60px;
+     padding-bottom: 20px;
 }
 
 .titlepage h2 {
