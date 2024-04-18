@@ -410,7 +410,10 @@ ul.btn li:last-child {
 
 .img-product{
      margin-bottom: 5px;
-     padding: 5px;
+     padding: 20px;
+}
+.img-product > h3{
+     text-align: center;
 }
 
 .text-bg h1 {
@@ -909,7 +912,6 @@ ul.social_icon li a:hover {
 }
 
 ul.location_icon {
-     padding-top: 12px;
      text-align: left;
 }
 
