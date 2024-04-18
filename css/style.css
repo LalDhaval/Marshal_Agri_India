@@ -368,7 +368,7 @@ ul.btn li:last-child {
 .header {
      width: 100%;
      padding: 15px 30px;
-     border-bottom: #c6cad5 solid 12px;
+     /* border-bottom: #c6cad5 solid 12px; */
      background-color: #13110e;
 }
 
@@ -378,7 +378,7 @@ ul.btn li:last-child {
      padding-top: 6px;
 }
 
-.logo::after {
+/* .logo::after {
      position: absolute;
      content: "";
      width: 136px;
@@ -388,7 +388,7 @@ ul.btn li:last-child {
      background: url(../images/top_head.png);
      background-repeat: no-repeat;
      border-right: #c6cad5 solid 15px;
-}
+} */
 
 
 /** banner section **/
