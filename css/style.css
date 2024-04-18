@@ -394,7 +394,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/banner.jpg);
+     background: url(../images/frant.jpg);
      background-repeat: no-repeat;
      min-height: 840px;
      background-size: 100% 100%;
@@ -408,6 +408,11 @@ ul.btn li:last-child {
      text-align: center;
 }
 
+.img-product{
+     margin-bottom: 5px;
+     padding: 5px;
+}
+
 .text-bg h1 {
      text-transform: uppercase;
      color: #fff;
@@ -418,10 +423,10 @@ ul.btn li:last-child {
 }
 
 .text-bg p {
-     font-size: 17px;
-     color: #fff;
+     font-size: 25px;
+     color: #000000;
      line-height: 28px;
-     font-weight: 500;
+     font-weight: 900;
      padding-bottom: 50px;
      display: block;
 }
@@ -451,7 +456,7 @@ ul.btn li:last-child {
 /** end banner section **/
 
 .titlepage {
-     text-align: center;
+     text-align: left;
      padding-bottom: 60px;
 }
 
