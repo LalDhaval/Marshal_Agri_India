@@ -183,6 +183,9 @@
 }
 
 @media (max-width: 575px) {
+    .hottest .hottest_box::after{
+        background-image: none;
+    }
     .header {
         padding: 30px 0px 30px 0px;
     }
