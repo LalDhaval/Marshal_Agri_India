@@ -913,6 +913,7 @@ ul.social_icon li a:hover {
 
 ul.location_icon {
      text-align: left;
+     padding-bottom: 20px;
 }
 
 ul.location_icon li {
@@ -944,6 +945,7 @@ ul.location_icon li a:hover {
 
 ul.link {
      text-align: left;
+     padding-bottom: 20px;
 }
 
 ul.link li a {
