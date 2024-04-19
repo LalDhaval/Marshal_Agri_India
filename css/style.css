@@ -369,7 +369,7 @@ ul.btn li:last-child {
      width: 100%;
      padding: 15px 30px;
      /* border-bottom: #c6cad5 solid 12px; */
-     background-color: #13110e;
+     background-color: #007d00;
 }
 
 .logo {
@@ -544,7 +544,7 @@ ul.btn li:last-child {
 
 .hottest .hottest_box {
      position: relative;
-     background-color: #f4cb1e;
+     background-color: #99ff00;
      padding: 60px 40px;
 }
 
@@ -577,7 +577,7 @@ ul.btn li:last-child {
 
 .choose {
      margin-top: 60px;
-     background-color: #242323;
+     background-color: #007d00;
      padding: 30px 0 65px 0;
      position: relative;
 }
@@ -810,7 +810,7 @@ ul.btn li:last-child {
 /** footer **/
 
 .footer {
-     background: #212121;
+     background: #007d00;
      text-align: center;
 }
 
