@@ -295,7 +295,7 @@
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;
-        margin-right: 2px;
+        margin-right: -6px;
         border: inherit;
     }
     .navigation.navbar-dark .navbar-toggler-icon {
