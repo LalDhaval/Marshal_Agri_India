@@ -394,7 +394,7 @@ ul.btn li:last-child {
 /** banner section **/
 
 .banner_main {
-     background: url(../images/frant.jpg);
+     background: url(../images/frant1-3.jpg);
      background-repeat: no-repeat;
      min-height: 650px;
      background-size: 100% 100%;
@@ -410,7 +410,7 @@ ul.btn li:last-child {
 
 .img-product{
      margin-bottom: 5px;
-     padding: 20px;
+     padding: 28px;
 }
 .img-product > h3{
      text-align: center;
@@ -530,7 +530,7 @@ ul.btn li:last-child {
 
 .hottest {
      background: #fff;
-     padding: 90px 0 0px 0;
+     padding: 65px 0 0px 0;
 }
 
 .hottest .titlepage {
@@ -545,7 +545,7 @@ ul.btn li:last-child {
 .hottest .hottest_box {
      position: relative;
      background-color: #99ff00;
-     padding: 60px 40px;
+     padding: 40px 40px;
 }
 
 .hottest .hottest_box::after {
@@ -632,6 +632,7 @@ ul.btn li:last-child {
      max-width: 653px;
      float: right;
      width: 100%;
+     margin-top: 20px;
 }
 
 .choose_box {
@@ -816,7 +817,6 @@ ul.btn li:last-child {
 
 .footer .titlepage {
      text-align: left;
-     padding-bottom: 20px;
 }
 
 .footer .titlepage h2 {
@@ -1009,7 +1009,7 @@ ul.link li a::after {
 }
 
 .copyright {
-     margin-top: 70px;
+     margin-top: 15px;
      padding: 20px 0px;
      background-color: #99ff00;
 }
@@ -1022,7 +1022,7 @@ ul.link li a::after {
 }
 
 .copyright a {
-     color: #black;
+     color: black;
 }
 
 .copyright a:hover {
