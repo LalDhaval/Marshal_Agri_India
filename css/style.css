@@ -563,7 +563,7 @@ ul.btn li:last-child {
 }
 
 .hottest .hottest_box p {
-     color: #fff;
+     color: black;
      font-size: 17px;
      line-height: 32px;
      font-weight: 500;
@@ -992,7 +992,7 @@ ul.link li a::after {
      font-size: 17px;
      transition: ease-in all 0.5s;
      background-color: #99ff00;
-     color: #fff;
+     color: black;
      padding: 11px 0px;
      max-width: 200px;
      width: 100%;
@@ -1003,9 +1003,9 @@ ul.link li a::after {
 }
 
 .sub_btn:hover {
-     background-color: #fff;
+     background-color: black;
      transition: ease-in all 0.5s;
-     color: #000;
+     color: white;
 }
 
 .copyright {
@@ -1015,18 +1015,18 @@ ul.link li a::after {
 }
 
 .copyright p {
-     color: #fff;
+     color: black;
      font-size: 18px;
      line-height: 22px;
      text-align: center;
 }
 
 .copyright a {
-     color: #fff;
+     color: #black;
 }
 
 .copyright a:hover {
-     color: #212121;
+     color: white;
 }
 
 
