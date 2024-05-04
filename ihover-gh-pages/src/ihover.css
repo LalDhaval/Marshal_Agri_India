@@ -18,7 +18,7 @@
 }
 .ih-item img {
   width: 50%;
-  height: 100%;
+  height: 200px;
 }
 
 .ih-item.circle {
@@ -2691,7 +2691,7 @@
   transition: all 0.35s ease-in-out;
 }
 .ih-item.square.effect3 .info {
-  height: 190px;
+  height: 195px;
   background: #333333;
   opacity: 0;
   -webkit-transition: all 0.35s ease-in-out;
