@@ -396,7 +396,7 @@ ul.btn li:last-child {
 .banner_main {
      background: url(../images/frant1-3.jpg);
      background-repeat: no-repeat;
-     min-height: 650px;
+     min-height: 700px;
      background-size: 100% 100%;
      display: flex;
      justify-content: center;
