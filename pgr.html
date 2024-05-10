@@ -81,6 +81,40 @@
                   border-radius: 0 0 0 0;
                }
             }
+            .dropbtn {   
+         color: white;
+         margin-top: -2px;
+         font-size: 15px;
+         }
+
+         /* The container <div> - needed to position the dropdown content */
+         .dropdown {
+         position: relative;
+         display: inline-block;
+         }
+
+         /* Dropdown Content (Hidden by Default) */
+         .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+
+         /* Links inside the dropdown */
+         .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         }
+         .dropdown-content a:hover {background-color: #ddd;}
+
+         .dropdown:hover .dropdown-content {display: block;}
+
+         /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
          </style>
    </head>
    <!-- body -->
@@ -118,8 +152,16 @@
                               <li class="nav-item">
                                  <a class="nav-link" href="about.html">About</a>
                               </li>
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="products.html">Products </a>
+                              <li class="nav-item dropbtn dropdown">
+                                 PRODUCTS &nbsp; <i class="fa-solid fa-caret-down" style="font-size: 20px;"></i>
+                                 <div class="dropdown-content">
+                                    <a href="fertilizer.html">Water Soluble Fertilizer</a>
+                                    <a href="micronutrient.html">Mix Micronutrient</a>
+                                    <a href="pgr.html">PGR</a>
+                                    <a href="gr.html">GR</a>
+                                    <a href="pesticide.html">Pesticide</a>
+                                    <a href="fungicide.html">Fungicide</a>
+                                  </div>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="contact.html">Contact</a>
@@ -146,24 +188,7 @@
                </div>
             </div>
 
-             <!-- <div class="col-12 col-sm-3 prod-item-col">
-               <div class="product-item">
-                 <a href="#" class="product-img"><img src="images/02-21.jpg" class="w-25 h-50" alt="product"></a>
-                 <div class="product-item-wrap">
-                   <div class="product-item-cover">
-                     <h6 class="prod-title">Mega Star</h6>
-                   </div>
-                   <div class="prod-info">
-                     <ul class="prod-list" style="margin: 5px; list-style-type: disc;">
-                       <li style="margin: 5px; list-style-type: disc;"> Homobrassinolide 0.04%</li>
-                       <li style="margin: 5px; list-style-type: disc;">Plant growth regulator, <br> for flower and fruit quality</li>
-                       <li style="margin: 5px; list-style-type: disc;">per acre : <span>200 ml from the spray</span></li>
-                       <li style="margin: 5px; list-style-type: disc;">Packing : <span>100, 250, 500 ml</span></li>
-                     </ul>
-                   </div>
-                 </div>
-               </div>
-             </div> -->
+            
 
              <div class="container">
                <div class="row text-center">
@@ -201,9 +226,9 @@
                  </div>
                  <div class="col-sm-3">
                   <div class="product-item">
-                     <img src="images/02-26.jpg" alt="" style="width: 50%; height: 50%;">
+                     <img src="images/02-26.jpg" alt="" style="width: 55%; height: 50%;">
                      <div class="product-item-cover">
-                        <h6 class="prod-title">ETHREX</h6>
+                        <h6 class="prod-title" style="margin-top: 15px;">ETHREX</h6>
                      </div>
                      <div class="prod-info">
                         <ul class="prod-list" style="margin: 5px 0 -13px 25px; color: gray;">
@@ -254,7 +279,7 @@
                  </div>
                  <div class="col-sm-3">
                   <div class="product-item">
-                     <img src="images/02-23.jpg" alt="" style="width: 100%; height: 100%;">
+                     <img src="images/02-23.jpg" alt="" style="width: 85%; height: 100%;">
                      <div class="product-item-cover">
                         <h6 class="prod-title">GBROLA - 40</h6>
                      </div>

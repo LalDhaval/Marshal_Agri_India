@@ -30,6 +30,42 @@
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <style>
+         .dropbtn {   
+         color: white;
+         margin-top: -2px;
+         font-size: 15px;
+         }
+
+         /* The container <div> - needed to position the dropdown content */
+         .dropdown {
+         position: relative;
+         display: inline-block;
+         }
+
+         /* Dropdown Content (Hidden by Default) */
+         .dropdown-content {
+         display: none;
+         position: absolute;
+         background-color: #f1f1f1;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         z-index: 1;
+         }
+
+         /* Links inside the dropdown */
+         .dropdown-content a {
+         color: black;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         }
+         .dropdown-content a:hover {background-color: #ddd;}
+
+         .dropdown:hover .dropdown-content {display: block;}
+
+         /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+      </style>
    </head>
    <!-- body -->
    <body class="main-layout">
@@ -66,9 +102,19 @@
                               <li class="nav-item">
                                  <a class="nav-link" href="about.html">About</a>
                               </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="products.html">Products </a>
+                              
+                              <li class="nav-item dropbtn dropdown">
+                                 PRODUCTS &nbsp; <i class="fa-solid fa-caret-down" style="font-size: 20px;"></i>
+                                 <div class="dropdown-content">
+                                    <a href="fertilizer.html">Water Soluble Fertilizer</a>
+                                    <a href="micronutrient.html">Mix Micronutrient</a>
+                                    <a href="pgr.html">PGR</a>
+                                    <a href="gr.html">GR</a>
+                                    <a href="pesticide.html">Pesticide</a>
+                                    <a href="fungicide.html">Fungicide</a>
+                                  </div>
                               </li>
+                           
                               <li class="nav-item">
                                  <a class="nav-link" href="contact.html">Contact</a>
                               </li>
@@ -218,7 +264,7 @@
          
          <div class="row">
             <div class="col-lg-4 img-product">
-               <a href="#">
+               <a href="fertilizer.html">
                <img src="images/water soluble fertilizer.jpg" alt="#"/>
                <h3 class="black text-center mt-1">Water Soluble Fertilizer</h3>
                </a>
@@ -231,7 +277,7 @@
             </div>
             <div class="col-lg-4 img-product">
                <a href="pgr.html">
-               <img src="images/pgrr.jpg" alt="#"/>
+               <img src="images/pgr1.webp" alt="#" style="height: 208px;"/>
                <h3 class="text-center mt-1">PGR <br> (Plant Growth Regulator)</h3>
                </a>
             </div>
