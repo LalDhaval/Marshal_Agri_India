@@ -619,6 +619,7 @@ header{
 }
 
 .choose_img {
+     background-color: white;
      padding: 20px;
      margin-left: 70px;
      margin-right: 40px;
