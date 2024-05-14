@@ -30,6 +30,8 @@
 
 * {
      box-sizing: border-box !important;
+     margin: 0;
+     padding: 0;
 }
 
 html {
@@ -368,7 +370,7 @@ ul.btn li:last-child {
 header{
      position: sticky;
      top: 0;
-     z-index: 1;
+     z-index: 99;
 }
 
 .header {
@@ -517,7 +519,20 @@ header{
 }
 
 .box_text {
-     box-shadow: 0 0 95px rgba(13, 3, 3, 0.56);
+     /* box-shadow: 0 0 95px rgba(13, 3, 3, 0.56); */
+     border: 10px groove whitesmoke;
+     overflow: hidden;
+
+}
+
+@keyframes move {
+     0%{
+          transform: scale(1);
+     }
+     100%{
+          transform: scale(1.5);
+
+     }
 }
 
 .box_text figure {
@@ -526,6 +541,9 @@ header{
 
 .box_text figure img {
      width: 100%;
+     animation: move 5s infinite  alternate-reverse linear;
+     
+
 }
 
 
@@ -732,6 +750,26 @@ header{
      padding: 60px 0px 140px 0px;
      background: #fff;
 }
+.mfung{
+     overflow: hidden;
+     /* border-radius: 50%; */
+     border: 10px groove whitesmoke;
+     box-shadow: 0 0 5px rgb(0, 0, 0,0.5);
+
+}
+.fung{
+     background-image: url(../images/fungus.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     transition: 5s linear all;
+     height: 100%;
+     width: 100%;
+     /* border-radius: 50%; */
+     overflow: hidden;
+     animation: move 5s infinite linear; 
+}
+
+
 
 .about .titlepage p {
      color: #141629;

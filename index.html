@@ -1,385 +1,428 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!-- basic -->
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <!-- mobile metas -->
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-      <!-- site metas -->
-      <title>Marshal Agri India</title>
-      <link rel="icon" href="images/favicon.ico">
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
-      <!-- bootstrap css -->
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <!-- style css -->
-      <link rel="stylesheet" href="css/style.css">
-      <!-- Responsive-->
-      <link rel="stylesheet" href="css/responsive.css">
-      <!-- fevicon -->
-      <link rel="icon" href="images/fevicon.png" type="image/gif" />
-      <!-- Scrollbar Custom CSS -->
-      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
-      <!-- Tweaks for older IEs-->
-      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-      <!--[if lt IE 9]>
+
+<head>
+   <!-- basic -->
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- mobile metas -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+   <!-- site metas -->
+   <title>Marshal Agri India</title>
+   <link rel="icon" href="images/favicon.ico">
+   <meta name="keywords" content="">
+   <meta name="description" content="">
+   <meta name="author" content="">
+   <!-- bootstrap css -->
+   <link rel="stylesheet" href="css/bootstrap.min.css">
+   <!-- style css -->
+   <link rel="stylesheet" href="css/style.css">
+   <!-- Responsive-->
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- fevicon -->
+   <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   <!-- Scrollbar Custom CSS -->
+   <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+   <!-- Animation -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+   <!-- Tweaks for older IEs-->
+   <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+      media="screen">
+   <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-      <style>
-         .dropbtn {   
+   <style>
+      .dropbtn {
          color: white;
          margin-top: -2px;
          font-size: 15px;
-         }
+      }
 
-         /* The container <div> - needed to position the dropdown content */
-         .dropdown {
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
          position: relative;
          display: inline-block;
-         }
+      }
 
-         /* Dropdown Content (Hidden by Default) */
-         .dropdown-content {
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
          display: none;
          position: absolute;
          background-color: #f1f1f1;
          min-width: 160px;
-         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
          z-index: 1;
-         }
+      }
 
-         /* Links inside the dropdown */
-         .dropdown-content a {
+      /* Links inside the dropdown */
+      .dropdown-content a {
          color: black;
          padding: 12px 16px;
          text-decoration: none;
          display: block;
-         }
-         .dropdown-content a:hover {background-color: #ddd;}
+      }
 
-         .dropdown:hover .dropdown-content {display: block;}
+      .dropdown-content a:hover {
+         background-color: #ddd;
+      }
 
-         /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
-      </style>
-   </head>
-   <!-- body -->
-   <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-      </div>
-      <!-- end loader -->
-      <!-- header -->
-      <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo (2).png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarsExample04">
-                           <ul class="navbar-nav mr-auto">
-                              <li class="nav-item active">
-                                 <a class="nav-link" href="index.html"> Home  </a>
-                              </li>
-                              <li class="nav-item">
-                                 <a class="nav-link" href="about.html">About</a>
-                              </li>
-                              
-                              <li class="nav-item dropbtn dropdown">
-                                 PRODUCTS <i class="fa-solid fa-caret-down" style="font-size: 20px; margin-left: 5px;"></i>
-                                 <div class="dropdown-content">
-                                    <a href="micronutrient.html">Mix Micronutrient</a>
-                                    <a href="pesticide.html">Pesticide</a>
-                                    <a href="fungicide.html">Fungicide</a>
-                                    <a href="pgr.html">PGR</a>
-                                    <a href="gr.html">GR</a>
-                                    <a href="fertilizer.html">Water Soluble Fertilizer</a>
-                                  </div>
-                              </li>
-                           
-                              <li class="nav-item">
-                                 <a class="nav-link" href="contact.html">Contact</a>
-                              </li>
-                           </ul>
-                        </div>
-                     </nav>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </header>
-      <!-- end header inner -->
-      <!-- end header -->
-      <!-- banner -->
-      <section class="banner_main">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-12 ">
-                  <div class="text-bg">
-                     <!-- <p>Farming is a Profession of hope. Farming is not growing of corps But cultivation & perfection of human beings. Agriculture is not a farming Its a feeding. Everyday is a Good Day........to be on the farm. Agriculture with new perspective Think new agri technology, think future.</p> -->
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- end banner -->
-      <!-- three_box -->
-      <div class="three_box">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-4">
-                  <div class="box_text">
-                     <figure><img style="height: 260px;" src="images/groundnut crop.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box_text">
-                     <figure><img style="height: 260px;" src="images/mirchicrop.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-               <div class="col-md-4">
-                  <div class="box_text">
-                     <figure><img style="height: 260px;" src="images/pomo.jpg" alt="#"/></figure>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- three_box -->
-      <!-- hottest -->
-      <div  class="hottest">
-         <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-5">
-                  <div class="titlepage">
-                     <img src="images/logo (1).png" alt="#" />
-                  </div>
-               </div>
-               <div class="col-md-7">
-                  <div class="hottest_box">
-                     <p style="text-align: justify;">Welcome to Marshal Agri India, where the soil is our canvas, and innovation is our brushstroke. For [number of years], we've been cultivating more than just crops; we've been cultivating relationships, sustainability, and growth. As pioneers in the field, we understand the delicate balance between tradition and technology, harnessing both to bring you the best in agricultural solutions. From seed to harvest, we're here to support you every step of the way with our expertise, products, and services tailored to meet your needs. Join us in our commitment to nourishing the land, feeding the world, and cultivating a future where agriculture thrives. Welcome to a place where the roots run deep, and the possibilities are endless.</p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      </div>
-      </div>
-      <!-- end hottest -->
-      <!-- choose  section -->
-      <div class="choose ">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-8">
-                  <div class="titlepage">
-                     <h2>Why Choose Us? </h2>
-                  </div>
-               </div>
-            </div>
-         </div>
+      .dropdown:hover .dropdown-content {
+         display: block;
+      }
+
+      /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+   </style>
+</head>
+<!-- body -->
+
+<body class="main-layout">
+   <!-- loader  -->
+   <!-- <div class="loader_bg">
+      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+   </div> -->
+   <!-- end loader -->
+   <!-- header -->
+   <header>
+      <!-- header inner -->
+      <div class="header">
          <div class="container-fluid">
-            <div class="row d_flex">
-               <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
-                  <div class="padding_with">
-                     <div class="row">
-                        <div class="col-md-6 padding_bottom">
-                           <div class="choose_box">
-                              <i><img src="images/icon1.png" alt="#"/></i>
-                              <div class="choose_text">
-                                 <h3>Exceptional Quality</h3>
-                                 <p style="text-align: justify;">We pride ourselves on delivering services of the highest quality. Our commitment to excellence ensures that every interaction with us is met with satisfaction.</p>
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                  <div class="full">
+                     <div class="center-desk">
+                        <div class="logo">
+                           <a href="index.html"><img src="images/logo (2).png" alt="#" /></a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                  <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                     </button>
+                     <div class="collapse navbar-collapse" id="navbarsExample04">
+                        <ul class="navbar-nav mr-auto">
+                           <li class="nav-item active">
+                              <a class="nav-link" href="index.html"> Home </a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" href="about.html">About</a>
+                           </li>
+
+                           <li class="nav-item dropbtn dropdown">
+                              PRODUCTS <i class="fa-solid fa-caret-down" style="font-size: 20px; margin-left: 5px;"></i>
+                              <div class="dropdown-content">
+                                 <a href="micronutrient.html">Mix Micronutrient</a>
+                                 <a href="pesticide.html">Pesticide</a>
+                                 <a href="fungicide.html">Fungicide</a>
+                                 <a href="pgr.html">PGR</a>
+                                 <a href="gr.html">GR</a>
+                                 <a href="fertilizer.html">Water Soluble Fertilizer</a>
                               </div>
+                           </li>
+
+                           <li class="nav-item">
+                              <a class="nav-link" href="contact.html">Contact</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <!-- end header inner -->
+   <!-- end header -->
+   <!-- banner -->
+   <section class="banner_main">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12 ">
+               <div class="text-bg">
+                  <!-- <p>Farming is a Profession of hope. Farming is not growing of corps But cultivation & perfection of human beings. Agriculture is not a farming Its a feeding. Everyday is a Good Day........to be on the farm. Agriculture with new perspective Think new agri technology, think future.</p> -->
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- end banner -->
+   <!-- three_box -->
+   <div class="three_box">
+      <div class="container">
+         <div class="row  " >
+            <div class="col-md-4">
+               <div class="box_text ">
+                  <figure><img style="height: 260px;" src="images/groundnut crop.jpg" alt="#" /></figure>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="box_text  ">
+                  <figure><img style="height: 260px;" src="images/mirchicrop.jpg" alt="#" /></figure>
+               </div>
+            </div>
+            <div class="col-md-4">
+               <div class="box_text">
+                  <figure><img style="height: 260px;" src="images/pomo.jpg" alt="#" /></figure>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- three_box -->
+   <!-- hottest -->
+   <div class="hottest">
+      <div class="container">
+         <div class="row d_flex">
+            <div class="col-md-5">
+               <div class="titlepage" data-aos="zoom-in" >
+                  <img src="images/logo (1).png" alt="#" />
+               </div>
+            </div>
+            <div class="col-md-7 " data-aos="fade-left" data-aos-delay="600">
+               <div class="hottest_box">
+                  <p style="text-align: justify;">Welcome to Marshal Agri India, where the soil is our canvas, and
+                     innovation is our brushstroke. For [number of years], we've been cultivating more than just crops;
+                     we've been cultivating relationships, sustainability, and growth. As pioneers in the field, we
+                     understand the delicate balance between tradition and technology, harnessing both to bring you the
+                     best in agricultural solutions. From seed to harvest, we're here to support you every step of the
+                     way with our expertise, products, and services tailored to meet your needs. Join us in our
+                     commitment to nourishing the land, feeding the world, and cultivating a future where agriculture
+                     thrives. Welcome to a place where the roots run deep, and the possibilities are endless.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   </div>
+   </div>
+   <!-- end hottest -->
+   <!-- choose  section -->
+   <div class="choose ">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-8">
+               <div class="titlepage">
+                  <h2>Why Choose Us? </h2>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid">
+         <div class="row d_flex">
+            <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12">
+               <div class="padding_with">
+                  <div class="row">
+                     <div class="col-md-6 padding_bottom" data-aos="fade-right" data-aos-delay="400">
+                        <div class="choose_box">
+                           <i><img src="images/icon1.png" alt="#" /></i>
+                           <div class="choose_text">
+                              <h3>Exceptional Quality</h3>
+                              <p style="text-align: justify;">We pride ourselves on delivering services of the highest
+                                 quality. Our commitment to excellence ensures that every interaction with us is met
+                                 with satisfaction.</p>
                            </div>
                         </div>
-                        <div class="col-md-6 padding_bottom">
-                           <div class="choose_box">
-                              <i><img src="images/icon2.png" alt="#"/></i>
-                              <div class="choose_text">
-                                 <h3>Dedicated Support</h3>
-                                 <p style="text-align: justify;">Our support doesn't end with the transaction. We are committed to providing ongoing support and assistance, ensuring your continued success long after our initial engagement.</p>
-                              </div>
+                     </div>
+                     <div class="col-md-6 padding_bottom" data-aos="fade-left" data-aos-delay="400">
+                        <div class="choose_box">
+                           <i><img src="images/icon2.png" alt="#" /></i>
+                           <div class="choose_text">
+                              <h3>Dedicated Support</h3>
+                              <p style="text-align: justify;">Our support doesn't end with the transaction. We are
+                                 committed to providing ongoing support and assistance, ensuring your continued success
+                                 long after our initial engagement.</p>
                            </div>
                         </div>
-                        <div class="col-md-6 padding_bottom2">
-                           <div class="choose_box">
-                              <i><img src="images/icon3.png" alt="#"/></i>
-                              <div class="choose_text">
-                                 <h3>Reliability and Trustworthiness</h3>
-                                 <p style="text-align: justify;">Count on us to deliver on our promises. We understand the importance of reliability in business relationships and strive to be a partner you can trust.</p>
-                              </div>
+                     </div>
+                     <div class="col-md-6 padding_bottom2" data-aos="fade-right" data-aos-delay="400">
+                        <div class="choose_box">
+                           <i><img src="images/icon3.png" alt="#" /></i>
+                           <div class="choose_text">
+                              <h3>Reliability and Trustworthiness</h3>
+                              <p style="text-align: justify;">Count on us to deliver on our promises. We understand the
+                                 importance of reliability in business relationships and strive to be a partner you can
+                                 trust.</p>
                            </div>
                         </div>
-                        <div class="col-md-6">
-                           <div class="choose_box">
-                              <i><img src="images/icon4.png" alt="#"/></i>
-                              <div class="choose_text">
-                                 <h3>Satisfied Clients</h3>
-                                 <p style="text-align: justify;">Don't just take our word for it. Our satisfied clients speak volumes about the quality of our work and the value we bring to their businesses. Join the ranks of our happy clients today!</p>
-                              </div>
+                     </div>
+                     <div class="col-md-6" data-aos="fade-left" data-aos-delay="400">
+                        <div class="choose_box">
+                           <i><img src="images/icon4.png" alt="#" /></i>
+                           <div class="choose_text">
+                              <h3>Satisfied Clients</h3>
+                              <p style="text-align: justify;">Don't just take our word for it. Our satisfied clients
+                                 speak volumes about the quality of our work and the value we bring to their businesses.
+                                 Join the ranks of our happy clients today!</p>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-                  <div class="choose_img">
-                     <figure><img src="images/vegitables.jpg" alt="#"/></figure>
-                  </div>
-               </div>
             </div>
-         </div>
-         
-      </div>
-      </div>
-      <!-- end choose  section -->
-      <!-- product  section -->
-      <div class="container">
-         <div class="row">
-            <div class="col-md-6">
-               <div class="titlepage">
-                  <h2>Our Categories</h2>
+            <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12" data-aos="flip-right">
+               <div class="choose_img">
+                  <figure><img src="images/vegitables.jpg" alt="#" /></figure>
                </div>
             </div>
          </div>
       </div>
-      <div class="container">
-         
-         <div class="row">
-            <div class="col-lg-4 img-product">
-               <a href="micronutrient.html">
-                  <img src="images/main_micro.jpg" alt="#"/>
-                  <h3 class="text-center mt-1">Mix Micronutrient</h3>
-               </a>
+
+   </div>
+   </div>
+   <!-- end choose  section -->
+   <!-- product  section -->
+   <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+            <div class="titlepage">
+               <h2>Our Categories</h2>
             </div>
-            <div class="col-sm-4 img-product">
-               <a href="pesticide.html">
-               <img src="images/pp1.jpg" alt="#"/>
+         </div>
+      </div>
+   </div>
+   <div class="container">
+
+      <div class="row">
+         <div class="col-lg-4 img-product" data-aos="zoom-in">
+            <a href="micronutrient.html">
+               <img src="images/main_micro.jpg" alt="#" />
+               <h3 class="text-center mt-1">Mix Micronutrient</h3>
+            </a>
+         </div>
+         <div class="col-sm-4 img-product" data-aos="zoom-in">
+            <a href="pesticide.html">
+               <img src="images/pp1.jpg" alt="#" />
                <h3 class="text-center mt-1">Pesticide</h3>
             </a>
-            </div>
-            <div class="col-sm-4 img-product">
-               <a href="fungicide.html">
-               <img src="images/fung1.jpg" alt="#"/>
+         </div>
+         <div class="col-sm-4 img-product" data-aos="zoom-in">
+            <a href="fungicide.html">
+               <img src="images/fung1.jpg" alt="#" />
                <h3 class="text-center mt-1">Fungicide</h3>
             </a>
-            </div>
          </div>
-         
-         <div class="row">
-            <div class="col-sm-4 img-product">
-               <a href="gr.html">
-                  <img src="images/pgr.jpg" alt="#"/>
-                  <h3 class="text-center mt-1">GR <br> (Growth Regulator)</h3>
-               </a>
-            </div>
-            <div class="col-lg-4 img-product">
-               <a href="pgr.html">
-                  <img src="images/pgr1.webp" alt="#" style="height: 208px;"/>
-                  <h3 class="text-center mt-1">PGR <br> (Plant Growth Regulator)</h3>
-               </a>
-            </div>
-            <div class="col-lg-4 img-product">
-               <a href="fertilizer.html">
-                  <img src="images/water soluble fertilizer.jpg" alt="#"/>
-                  <h3 class="black text-center mt-1">Water Soluble Fertilizer</h3>
-               </a>
-            </div>
-         </div>
-         
       </div>
-      
-      <!-- end product  section -->
-      
-      <!--  footer -->
-      <footer id="contact">
-         <div class="footer">
+
+      <div class="row">
+         <div class="col-sm-4 img-product" data-aos="zoom-in">
+            <a href="gr.html">
+               <img src="images/pgr.jpg" alt="#" />
+               <h3 class="text-center mt-1">GR <br> (Growth Regulator)</h3>
+            </a>
+         </div>
+         <div class="col-lg-4 img-product" data-aos="zoom-in">
+            <a href="pgr.html">
+               <img src="images/pgr1.webp" alt="#" style="height: 208px;" />
+               <h3 class="text-center mt-1">PGR <br> (Plant Growth Regulator)</h3>
+            </a>
+         </div>
+         <div class="col-lg-4 img-product" data-aos="zoom-in">
+            <a href="fertilizer.html">
+               <img src="images/water soluble fertilizer.jpg" alt="#" />
+               <h3 class="black text-center mt-1">Water Soluble Fertilizer</h3>
+            </a>
+         </div>
+      </div>
+
+   </div>
+
+   <!-- end product  section -->
+
+   <!--  footer -->
+   <footer id="contact">
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Contact Us</h2>
+                  </div>
+               </div>
+
+               <div class="col-md-3">
+                  <h3>Contact Info</h3>
+                  <ul class="location_icon">
+                     <li style="text-align: justify; font-size: 16px;"><a
+                           href="https://maps.app.goo.gl/98Tk3AsmJUgiSyX48" target="_blank"><i
+                              class="fa-solid fa-location-dot" aria-hidden="true"></i></a>Ahmedabad / Rajkot India</li>
+                     <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i><a href="tel:08200043325"
+                           style="font-size: 16px; padding-left: 10px;">+91 82000 43325</a></li>
+                     <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:marshalagriindia@gmail.com"
+                           style="font-size: 16px; padding-left: 10px;">marshalagriindia@gmail.com</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-3">
+                  <p style="text-align: left; color: white; line-height: 25px;">
+                     ADDRESS : <br> REVENUE S.NO.160/161/163, <br>
+                     PAIKI PLOT NO63. <br>
+                     DINDAYAL IND.ARIYA. <br>
+                     STREET NO.1,
+                     Rajkot <br> Gujarat 360003
+                  </p>
+               </div>
+               <div class="col-md-3">
+                  <p style="text-align: left; color: white; line-height: 25px;">
+                     ADDRESS : <br>
+                     A-19 & A-20, <br>
+                     Ambica Estate, <br>
+                     Aslalli, Tal : Daskroi, <br>
+                     Ahmedabad - 382427 (Gujrat) India
+                  </p>
+
+                  <div class="mt-2 text-left">
+                     <a href="https://www.facebook.com/marshalagriindia"><i class="fa-brands fa-facebook"
+                           style="color: white; font-size: 25px;"></i></a>
+                     <a href="https://www.instagram.com/marshalagri.india/" target="_blank"><i
+                           class="fa-brands fa-instagram pl-4" style="color: white; font-size: 25px;"></i></a>
+                  </div>
+               </div>
+
+               <div class="col-md-3">
+                  <form class="bottom_form">
+                     <h3>Newsletter</h3>
+                     <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                     <button class="sub_btn">subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="copyright">
             <div class="container">
                <div class="row">
                   <div class="col-md-12">
-                     <div class="titlepage">
-                        <h2>Contact Us</h2>
-                     </div>
-                  </div>
-                  
-                  <div class="col-md-3">
-                     <h3>Contact Info</h3>
-                     <ul class="location_icon">
-                        <li style="text-align: justify; font-size: 16px;"><a href="https://maps.app.goo.gl/98Tk3AsmJUgiSyX48" target="_blank"><i class="fa-solid fa-location-dot" aria-hidden="true"></i></a>Ahmedabad / Rajkot India</li>
-                        <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i><a href="tel:08200043325" style="font-size: 16px; padding-left: 10px;">+91 82000 43325</a></li>
-                        <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:marshalagriindia@gmail.com" style="font-size: 16px; padding-left: 10px;">marshalagriindia@gmail.com</a></li>
-                     </ul>
-                  </div>
-                  <div class="col-md-3">
-                     <p style="text-align: left; color: white; line-height: 25px;">
-                        ADDRESS : <br> REVENUE S.NO.160/161/163, <br>
-                        PAIKI PLOT NO63. <br>
-                        DINDAYAL IND.ARIYA. <br>
-                        STREET NO.1, 
-                        Rajkot <br> Gujarat 360003
-                     </p>
-                  </div>
-                  <div class="col-md-3">
-                     <p style="text-align: left; color: white; line-height: 25px;">
-                        ADDRESS : <br>
-                        A-19 & A-20, <br>
-                        Ambica Estate, <br>
-                        Aslalli, Tal : Daskroi, <br>
-                        Ahmedabad - 382427 (Gujrat) India
-                     </p>
-                     
-                        <div class="mt-2 text-left">
-                              <a href="https://www.facebook.com/marshalagriindia"><i class="fa-brands fa-facebook" style="color: white; font-size: 25px;"></i></a>
-                              <a href="https://www.instagram.com/marshalagri.india/" target="_blank"><i class="fa-brands fa-instagram pl-4" style="color: white; font-size: 25px;"></i></a>  
-                        </div>
-                      </div>
-                  
-                  <div class="col-md-3">
-                     <form class="bottom_form">
-                        <h3>Newsletter</h3>
-                        <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
-                        <button class="sub_btn">subscribe</button>
-                     </form>
-                  </div>
-               </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-12">
-                        <p>Copyright &copy; 2024 Marshal Agri India. Developed By : <a href="https://sdvisionart.com/" target="_blank">SD Infoway</a></p>
-                     </div>
+                     <p>Copyright &copy; 2024 Marshal Agri India. Developed By : <a href="https://sdvisionart.com/"
+                           target="_blank">SD Infoway</a></p>
                   </div>
                </div>
             </div>
          </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-   </body>
-</html>
+      </div>
+   </footer>
 
+   <!-- end footer -->
+   <!-- aos animation -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+    </script>
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+</body>
+
+</html>
