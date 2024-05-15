@@ -478,7 +478,7 @@ header{
      line-height: 62px;
      font-weight: 600;
      margin-top: 30px;
-     border-bottom: 5px solid #99ff00;
+     border-bottom: 5px solid yellowgreen;
      text-align: center;
 
 }
@@ -531,9 +531,12 @@ header{
 @keyframes move {
      0%{
           transform: scale(1.1);
+          background-position: top right;
      }
      100%{
           transform: scale(1.5);
+          background-position: top left;
+
 
      }
 }
@@ -571,7 +574,7 @@ header{
 
 .hottest .hottest_box {
      position: relative;
-     background-color: #99ff00;
+     background-color: yellowgreen;
      padding: 40px 40px;
 }
 
@@ -584,6 +587,7 @@ header{
      width: 31px;
      height: 100%;
      background: url(../images/h_cross.png);
+     filter: hue-rotate(20deg);
      background-repeat: no-repeat;
      display: block;
      background-position: center center;
@@ -672,7 +676,7 @@ header{
 
 .choose_box i img {
      float: left;
-     background-color: #99ff00;
+     background-color: yellowgreen;
      width: 200px;
      padding: 10px;
      border-radius: 60px;
@@ -769,7 +773,7 @@ header{
      width: 100%;
      /* border-radius: 50%; */
      overflow: hidden;
-     animation: move 5s infinite linear; 
+     animation: move 5s infinite linear alternate; 
 }
 
 
@@ -1038,7 +1042,7 @@ ul.link li a::after {
 .sub_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #99ff00;
+     background-color: yellowgreen;
      color: black;
      padding: 11px 0px;
      max-width: 200px;
@@ -1058,7 +1062,7 @@ ul.link li a::after {
 .copyright {
      margin-top: 15px;
      padding: 20px 0px;
-     background-color: #99ff00;
+     background-color: yellowgreen;
 }
 
 .copyright p {
